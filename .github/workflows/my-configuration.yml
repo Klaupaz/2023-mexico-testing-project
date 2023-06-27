@@ -1,6 +1,6 @@
 name: GitHub Actions Intento1
 run-name: ${{ github.actor }} is testing out GitHub Actions
-on: [push, pull-request]
+on: [push]
 jobs:
 Explore-GitHub-Actions:
  runs-on: debian-latest
